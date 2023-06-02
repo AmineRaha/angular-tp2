@@ -1,0 +1,16 @@
+<nav class="navbar navbar-dark bg-dark p-3">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Formation Angular</a>
+    <ng-select class="navbar-brand"
+      [items]="options"
+      [(ngModel)]="selectedOption"
+      [searchable]="false"
+      [clearable]="false"
+      [appearance]="'outlined'"
+      [hideSelected]="true"
+    >
+    </ng-select>
+  </div>
+</nav>
+
+
